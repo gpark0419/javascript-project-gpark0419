@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    position: relative;
+    border-bottom: 2px solid #ddd;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header-left h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-left img {
+    display: block;
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border: 3px solid #ddd;
+}
+
+.header-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.header-right ul li {
+    margin: 0;
+}
+
+.header-right ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.site-title h2 {
+    margin: 0;
+    font-size: 4em;
+    color: #666;
+    text-align: center;
+}
+
+.design-line {
+    width: 90%;
+    height: 5px;
+    background-color: #ddd;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em;
+}
+
+#about {
+    display: block;
+}
+
+h2,
+h3,
+h4 {
+    font-size: 1.6em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+p,
+li {
+    line-height: 1.8;
+}
+
+.coming-soon {
+    font-size: 1em;
+    color: gray;
+}
+
+/*The body selector applies general styling to the entire page, setting the font family to Arial with a fallback of sans-serif, and increasing the base font size to 20px for better readability. It removes any default margin and padding from the body and applies a light gray background color (#f8f8f8).
+The header selector styles the header section, using display: flex to arrange its contents horizontally. The properties justify-content: space-between and align-items: center space the elements evenly and align them vertically centered. The header has 20px padding for internal spacing, a light gray background color (#f5f5f5), and a thin bottom border of 2px in a slightly darker gray (#ddd) to create a visual separation from the main content.
+The .header-left h1 selector defines the style of the name ("Guk Gi Park") by removing any default margin and setting the font size to 2em for emphasis.
+The .header-left h1 a selector styles the link around the name, setting the text color to black and removing the default underline with text-decoration: none.
+The .header-left img selector styles the profile picture. It sets the image to display as a block with a 10px margin on top, a circular shape (border-radius: 50%), and a larger size (160px by 160px). The object-fit: cover property ensures the image fills the circular area without distortion, and a 3px gray border (#ddd) around the image enhances its appearance.
+The .header-right ul selector styles the navigation menu. It removes the default list styling, sets both padding and margin to 0, and uses display: flex with a gap of 25px to space out the navigation links horizontally.
+The .header-right ul li a selector styles each navigation link, removing the underline, setting the color to black, and making the text bold for visibility. The font size is set to 1.2em, slightly larger than the base font size, to improve readability.
+The .site-title h2 selector styles the “Site Title” in the header, setting the font size to 4em for prominence. The color is a medium gray (#666), and the text is centered with text-align: center.
+The .design-line selector styles a decorative line below the header. It sets the width to 90%, height to 5px, and background color to light gray (#ddd). A border radius of 5px gives the line slightly rounded edges, adding a soft touch to the design.
+The main selector styles the main content area with 20px padding and a maximum width of 900px for a centered, balanced layout. margin: auto centers the main content area horizontally.
+The section selector hides all sections by default with display: none, allowing them to be selectively displayed based on user interactions (likely managed by JavaScript).
+The footer selector styles the footer, setting it to center-aligned with 10px padding, a dark gray background color (#333), and white text color. It uses position: fixed to anchor the footer at the bottom of the viewport, spans the entire width of the screen, and has a font size of 1em.
+The #about selector specifically targets the “About Me” section, making it visible by default with display: block.
+The h2, h3, h4 selectors style the section headers, increasing the font size to 1.6em and adding a top and bottom margin of 0.5em to space them out from adjacent content.
+The p, li selectors style paragraphs and list items, setting a line height of 1.8 for improved readability and comfortable spacing between lines.
+The .coming-soon selector applies specific styling to "Coming soon" text, setting the font size to 1em and coloring it gray for a subtle appearance.
+*/
